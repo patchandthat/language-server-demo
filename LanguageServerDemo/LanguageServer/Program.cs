@@ -1,6 +1,6 @@
 ﻿using DemoLanguageServer.Handlers;
 using OmniSharp.Extensions.LanguageServer.Protocol.Models;
-using OmniSharp.Extensions.LanguageServer.Protocol.Window;
+using OmniSharp.Extensions.LanguageServer.Protocol.Server;
 using OmniSharp.Extensions.LanguageServer.Server;
 using System;
 using System.Threading;
@@ -29,15 +29,26 @@ namespace DemoLanguageServer
             await server.WaitForExit;
         }
 
-        private static Task OnStartedCallback(ILanguageServer server, InitializeResult result, CancellationToken cancellationToken)
+        private static Task OnStartedCallback(OmniSharp.Extensions.LanguageServer.Server.ILanguageServer server, InitializeResult result)
         {
             server.Window.ShowMessage(new ShowMessageParams
             {
-                Message = $"{result.ServerInfo.Name} server started",
+                Message = $"{result.ServerInfo.Name} server 0.16.0 started",
                 Type = MessageType.Info
             });
 
             return Task.CompletedTask;
         }
+
+        //private static Task OnStartedCallback(ILanguageServer server, InitializeResult result, CancellationToken cancellationToken)
+        //{
+        //    server.Window.ShowMessage(new ShowMessageParams
+        //    {
+        //        Message = $"{result.ServerInfo.Name} server started",
+        //        Type = MessageType.Info
+        //    });
+
+        //    return Task.CompletedTask;
+        //}
     }
 }

@@ -1,10 +1,8 @@
 ﻿using MediatR;
 using OmniSharp.Extensions.LanguageServer.Protocol;
-using OmniSharp.Extensions.LanguageServer.Protocol.Document;
 using OmniSharp.Extensions.LanguageServer.Protocol.Models;
 using OmniSharp.Extensions.LanguageServer.Protocol.Server;
 using OmniSharp.Extensions.LanguageServer.Protocol.Server.Capabilities;
-using OmniSharp.Extensions.LanguageServer.Protocol.Window;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -35,7 +33,12 @@ namespace DemoLanguageServer.Handlers
             });
         }
 
-        public override TextDocumentAttributes GetTextDocumentAttributes(DocumentUri uri)
+        //public override TextDocumentAttributes GetTextDocumentAttributes(DocumentUri uri)
+        //{
+        //    return new TextDocumentAttributes(uri, "demo");
+        //}
+
+        public override TextDocumentAttributes GetTextDocumentAttributes(Uri uri)
         {
             return new TextDocumentAttributes(uri, "demo");
         }

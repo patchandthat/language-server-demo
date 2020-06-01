@@ -83,9 +83,6 @@
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.6.2051" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Server\DynamicData.dll">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="Server\LanguageServer.dll">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

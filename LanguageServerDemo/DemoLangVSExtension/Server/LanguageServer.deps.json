@@ -8,22 +8,11 @@
     ".NETCoreApp,Version=v3.1": {
       "LanguageServer/1.0.0": {
         "dependencies": {
-          "OmniSharp.Extensions.LanguageServer": "0.17.0-alpha0016",
-          "System.Reactive.Reference": "4.4.0.0"
+          "OmniSharp.Extensions.LanguageServer": "0.16.0",
+          "System.Reactive.Reference": "4.3.0.0"
         },
         "runtime": {
           "LanguageServer.dll": {}
-        }
-      },
-      "DynamicData/6.14.18": {
-        "dependencies": {
-          "System.Reactive": "4.4.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/DynamicData.dll": {
-            "assemblyVersion": "6.14.0.0",
-            "fileVersion": "6.14.18.21056"
-          }
         }
       },
       "MediatR/8.0.1": {
@@ -148,7 +137,7 @@
           }
         }
       },
-      "OmniSharp.Extensions.JsonRpc/0.17.0-alpha0016": {
+      "OmniSharp.Extensions.JsonRpc/0.16.0": {
         "dependencies": {
           "MediatR": "8.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
@@ -157,48 +146,45 @@
           "Microsoft.Extensions.Logging": "3.1.0",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.0",
           "Newtonsoft.Json": "11.0.2",
-          "System.Collections.Immutable": "1.1.32-beta",
-          "System.Reactive": "4.4.1"
+          "System.Reactive": "4.3.2"
         },
         "runtime": {
           "lib/netstandard2.1/OmniSharp.Extensions.JsonRpc.dll": {
-            "assemblyVersion": "0.17.0.0",
-            "fileVersion": "0.17.0.0"
+            "assemblyVersion": "0.16.0.0",
+            "fileVersion": "0.16.0.0"
           }
         }
       },
-      "OmniSharp.Extensions.LanguageProtocol/0.17.0-alpha0016": {
+      "OmniSharp.Extensions.LanguageProtocol/0.16.0": {
         "dependencies": {
-          "DynamicData": "6.14.18",
-          "OmniSharp.Extensions.JsonRpc": "0.17.0-alpha0016"
+          "OmniSharp.Extensions.JsonRpc": "0.16.0"
         },
         "runtime": {
           "lib/netstandard2.1/OmniSharp.Extensions.LanguageProtocol.dll": {
-            "assemblyVersion": "0.17.0.0",
-            "fileVersion": "0.17.0.0"
+            "assemblyVersion": "0.16.0.0",
+            "fileVersion": "0.16.0.0"
           }
         }
       },
-      "OmniSharp.Extensions.LanguageServer/0.17.0-alpha0016": {
+      "OmniSharp.Extensions.LanguageServer/0.16.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "3.1.0",
-          "OmniSharp.Extensions.JsonRpc": "0.17.0-alpha0016",
-          "OmniSharp.Extensions.LanguageProtocol": "0.17.0-alpha0016"
+          "OmniSharp.Extensions.JsonRpc": "0.16.0",
+          "OmniSharp.Extensions.LanguageProtocol": "0.16.0"
         },
         "runtime": {
           "lib/netstandard2.1/OmniSharp.Extensions.LanguageServer.dll": {
-            "assemblyVersion": "0.17.0.0",
-            "fileVersion": "0.17.0.0"
+            "assemblyVersion": "0.16.0.0",
+            "fileVersion": "0.16.0.0"
           }
         }
       },
-      "System.Collections.Immutable/1.1.32-beta": {},
-      "System.Reactive/4.4.1": {},
-      "System.Reactive.Reference/4.4.0.0": {
+      "System.Reactive/4.3.2": {},
+      "System.Reactive.Reference/4.3.0.0": {
         "runtime": {
           "System.Reactive.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.1.57983"
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.2.55399"
           }
         }
       }
@@ -209,13 +195,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "DynamicData/6.14.18": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+KzWiyw+ip52AEPVnRsNom55eL8D98jDi1la7Cfr7AhMeQlejhartMmdLzYu6Oan9XKA4vCUYHOXoi0HX4vOEA==",
-      "path": "dynamicdata/6.14.18",
-      "hashPath": "dynamicdata.6.14.18.nupkg.sha512"
     },
     "MediatR/8.0.1": {
       "type": "package",
@@ -301,42 +280,35 @@
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
-    "OmniSharp.Extensions.JsonRpc/0.17.0-alpha0016": {
+    "OmniSharp.Extensions.JsonRpc/0.16.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TxVd/Yxe4PqqkbK9hmGpPDoIlDngztbeJWrArvy0VRSToDg0RPm41n0lfwgkeiQdW00VdNb4E0UbO/nhyR3WLQ==",
-      "path": "omnisharp.extensions.jsonrpc/0.17.0-alpha0016",
-      "hashPath": "omnisharp.extensions.jsonrpc.0.17.0-alpha0016.nupkg.sha512"
+      "sha512": "sha512-W4bKJSMPsdBPq890SRh4kJqa9ZjSHsrAZmYqiWChccP+Eh6HvumOEjKHwvqE50gWw0gIJz1vPJpbfAhUkrV+6w==",
+      "path": "omnisharp.extensions.jsonrpc/0.16.0",
+      "hashPath": "omnisharp.extensions.jsonrpc.0.16.0.nupkg.sha512"
     },
-    "OmniSharp.Extensions.LanguageProtocol/0.17.0-alpha0016": {
+    "OmniSharp.Extensions.LanguageProtocol/0.16.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Miq5qjrbUylwwK3AGb5EYyJvidQ6bZgfikzuiSSvTTi3v9Uv6hKV/U2CoJ54ZYZkI6jOQkTPck0cY4u7JCsBBQ==",
-      "path": "omnisharp.extensions.languageprotocol/0.17.0-alpha0016",
-      "hashPath": "omnisharp.extensions.languageprotocol.0.17.0-alpha0016.nupkg.sha512"
+      "sha512": "sha512-TIDcnqr0sju64DO+csIGCLYVmuqvnzg2q55wjqon7/o5FrGSTNUbw/KP6tj8QLnDgT4FGXgJTK/b4bucpHzBIg==",
+      "path": "omnisharp.extensions.languageprotocol/0.16.0",
+      "hashPath": "omnisharp.extensions.languageprotocol.0.16.0.nupkg.sha512"
     },
-    "OmniSharp.Extensions.LanguageServer/0.17.0-alpha0016": {
+    "OmniSharp.Extensions.LanguageServer/0.16.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ni/MxpTiwUGG/dSu52ZuP/V1TsMc9pCXuYQEM1aYT/2TszW5/Og1duFzXo1oSduZlNBdbG60KaIzgUTXv6KOAA==",
-      "path": "omnisharp.extensions.languageserver/0.17.0-alpha0016",
-      "hashPath": "omnisharp.extensions.languageserver.0.17.0-alpha0016.nupkg.sha512"
+      "sha512": "sha512-YdKPksedu4iosforaIjOrcCAACrBHtCcLPKQkdphApeeUwwb+9FPfck9UAofu7Rhm3jPOmvChI/wrtEuTHKocw==",
+      "path": "omnisharp.extensions.languageserver/0.16.0",
+      "hashPath": "omnisharp.extensions.languageserver.0.16.0.nupkg.sha512"
     },
-    "System.Collections.Immutable/1.1.32-beta": {
+    "System.Reactive/4.3.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ckfFUM6keywtdZ+DT7/KWSmQ0YRLHu4OCnKKWbumvO8uDcKtCoxjLKcaWNzguGCSTy2r2Ap9gojazgCwMYw0bQ==",
-      "path": "system.collections.immutable/1.1.32-beta",
-      "hashPath": "system.collections.immutable.1.1.32-beta.nupkg.sha512"
+      "sha512": "sha512-WhGkScPWxw2pp7UwRW8M1OvYZ3WUDPC2wJ0aiuaB4KRD3bt4wLkgHgYnOUu87WRhsurvv5LN0E63iWOEza2o8g==",
+      "path": "system.reactive/4.3.2",
+      "hashPath": "system.reactive.4.3.2.nupkg.sha512"
     },
-    "System.Reactive/4.4.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-iSTPeWR9HJhGoNV4WhVlvofuiTjpok1i4E3LPgMdbMqf3jKhFlT9HAlO32lb52NLppWC/4dZQFfUzTytvyXBmw==",
-      "path": "system.reactive/4.4.1",
-      "hashPath": "system.reactive.4.4.1.nupkg.sha512"
-    },
-    "System.Reactive.Reference/4.4.0.0": {
+    "System.Reactive.Reference/4.3.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
